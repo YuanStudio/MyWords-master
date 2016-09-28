@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.cathleen.mywords.MainActivity">
+    <item
+        android:id="@+id/option_insert"
+        android:orderInCategory="100"
+        android:title="插入"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/option_search"
+        android:orderInCategory="100"
+        android:title="查找"
+        app:showAsAction="never" />
+</menu>
